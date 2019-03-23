@@ -147,8 +147,8 @@ def main():
     logging.basicConfig(format=log_format, level=logging.DEBUG)
     logging.debug('Start dummy backend...')
 
-    model_black = keras.models.load_model('../model/myModelBlack.h5')
-    model_white = keras.models.load_model('../model/myModelWhite.h5')
+    model_black = keras.models.load_model('myModelBlack.h5')
+    model_white = keras.models.load_model('myModelWhite.h5')
 
     logging.debug('')
 
