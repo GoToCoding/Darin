@@ -142,7 +142,7 @@ class Predictor:
 
 def main():
     pid = os.getpid()
-    log_format = f'{pid}:%(levelname)s:%(asctime)s: %(message)s'
+    log_format = str(pid) + ':%(levelname)s:%(asctime)s: %(message)s'
 
     logging.basicConfig(format=log_format, level=logging.DEBUG)
     logging.debug('Start dummy backend...')
