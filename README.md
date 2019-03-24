@@ -1,6 +1,6 @@
 # Darin
 
-Как запускать: `python3 main_runner.py`
+Как запускать: `python3 main_runner.py` <br>
 Как запустить UI: `python3 table.py`, в строку в table можно передать партию матча.
 
 ~
